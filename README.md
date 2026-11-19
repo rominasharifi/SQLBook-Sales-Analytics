@@ -22,6 +22,17 @@ The `SQLBook` database is a course dataset and is not included in this repositor
 - Average order value by payment type was highest for payment type AE (about $98) and lowest for OC (about $32).
 - The best revenue month was December in every year from 2010 to 2015.
 - The number of customers who bought in one year but not the next grew from 20,254 (2012 to 2013) to 43,501 (2014 to 2015), alongside a growing customer base.
+- The number of products sold in both of two consecutive years grew from 528 (2012 to 2013) to 816 (2013 to 2014) and 1,166 (2014 to 2015).
+
+## Visuals
+
+Products sold in two consecutive years (Excel chart of the results of the product query in `01_Orders_Analysis_2012_2015.sql`):
+
+![Products sold in consecutive years](screenshots/products_sold_consecutive_years.png)
+
+The 2,000 ZIP codes with the highest housing vacancy (above 20%), exported as KML by `04_ZIP_Census_Geographic_Queries_and_KML.sql` and opened in Google Earth:
+
+![High housing vacancy by ZIP code in Google Earth](screenshots/vacancy_map.png)
 
 ## Tools
 
